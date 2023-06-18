@@ -1,0 +1,186 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  /* box-sizing: border-box; */
+}
+
+body {
+  /* border: 3px solid black; */
+  height: 100vh;
+  /* width: 90vw; */
+  font-family: "Times New Roman", Times, serif;
+  background-color: #fef6e4;
+  flex-wrap: wrap;
+}
+
+.custom-cursor {
+cursor: url(./images/icons8-ice-cream-16.png), auto;
+}
+
+header {
+  /* border: 3px solid green; */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 70px;
+  letter-spacing: 40px;
+}
+
+h2 {
+  letter-spacing: 10px;
+}
+
+/* MAIN */
+
+main {
+  /* border: 3px solid red; */
+  height: 90vh;
+  width: 90vw;
+  margin: 0 auto;
+  background: linear-gradient(to top, #fef6e4, #f3d2c1);
+}
+
+.image-ingredients {
+  /* border: 3px solid blue; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+img {
+  width: 500px;
+  margin-right: 20px;
+  border-radius: 80px;
+  margin-top: 25px;
+}
+
+.ingredients {
+  /* border: 3px solid yellow; */
+  padding-right: 100px;
+  letter-spacing: 2px;
+  line-height: 2;
+}
+
+.ingredients h3 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.instruction {
+  /* border: 3px solid yellow; */
+  border-radius: 15px;
+  background: linear-gradient(to bottom, #fef6e4, #f3d2c1);
+  margin-top: 20px;
+  width: 80%;
+  height: 50%;
+  font-size: 20px;
+  letter-spacing: 2px;
+  line-height: 1;
+  overflow: auto;
+}
+
+.instruction h3 {
+  margin: 10px 0;
+}
+
+aside {
+  /* border: 3px solid blue; */
+  margin-top: 10px;
+  line-height:2;
+}
+
+/* FOOTER */
+
+footer {
+    /* border: 3px solid green; */
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 2;
+  }
+  
+
+.footer-section {
+  /* border: 3px solid black; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.button-footer {
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 100px;
+  padding-top: 10px;
+}
+
+.like-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+  height: 50px;
+  width: 80px;
+}
+
+.like-button:hover {
+  background-color: green;
+  opacity: 0.8;
+}
+
+/* IT USES TO MAKE BUTTON LOOK MORE ACTIVE ONCE YOU CLICK IT */
+
+.like-button:active {
+  background-color: blue;
+  opacity: 0.4;
+}
+
+
+.comment-button {
+  background-color: white;
+  border-color: rgb(12, 12, 177);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(12, 12, 177);
+  transition: background-color 0.15s, color 0.15s;
+  vertical-align: top;
+  height: 50px;
+  width: 80px;
+}
+
+.comment-button:hover {
+  background-color: rgb(12, 12, 177);
+  color: white;
+}
+
+/* IT USES TO MAKE BUTTON LOOK MORE ACTIVE ONCE YOU CLICK IT */
+
+.comment-button:active {
+  opacity: 0.7;
+}
+
+
+.share-button {
+  background-color: #1d9bf0;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 17px;
+  transition: box-shadow 0.15s;
+  vertical-align: top;
+  height: 50px;
+  width: 80px;
+}
+
+.share-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
